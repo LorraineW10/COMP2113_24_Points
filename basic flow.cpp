@@ -14,10 +14,17 @@ struct Record{
 	Record * next;
 };
 
+// for recording players who chose to hide their scores
+struct Hidden_Record{
+	string name;
+	Hidden_Record * next;
+};
+
 // (这部分还需要吗……？
-Record * find_prev( Record * head, int num )
-void head_insert(Record * & head, string name, int num)
-void insert( Record * after, string name, int num )
+void hidden_record_tail_insert(Hidden_Record * & head, Hidden_Record * & tail, string name);
+Record * find_prev( Record * head, int num );
+void head_insert(Record * & head, string name, int num);
+void insert( Record * after, string name, int num );
 int factorial(int n);
 int permutation(int n, int r);
 int combination(int n, int r);
@@ -25,6 +32,22 @@ int subtract(int a, int b);
 int bigger(int a, int b);
 int smaller(int a, int b);
 
+// for appending a new peson who hid their score
+void hidden_record_tail_insert(Hidden_Record * & h_head, Hidden_Record * & h_tail, string name)
+{
+	Hidden_Record * p = new Hidden_Record;
+	p->name = name;
+	p->next = NULL;
+
+	if (h_head == NULL) {
+		h_head = p;
+		h_tail = p;
+	}
+	else {
+		h_tail->next = p;
+		h_tail = p;
+	}
+}
 
 // find the last one in the list that is smaller than num
 Record * find_prev( Record * head, int num )
@@ -65,7 +88,7 @@ void insert( Record * after, string name, int num )
 	after->next = p;
 }
 
-// other functions for calculation
+// other math functions needed
 int factorial(int n)
 {
 	int product=1;
@@ -133,19 +156,17 @@ int main()
 {
 	// GREETINGS
 	cout<<"Welcome to 24 points!"<<endl;
-	// For the linked list of score record
+	bool delta=1;
+	// Building the list for recording players' scores
 	Record * head = NULL, * tail = NULL;
-	
-	// Start the competition
+	Hidden_Record * h_head = NULL, * h_tail = NULL;
 	while (true){
-		
-		// To record a player's name
 		cout<<"Player's name: "<<endl;
 		string Player_name;
 		cin>>Player_name;
 		cout<<"Hello "<<Player_name<<"!"<<endl;
 
-		// Whether to keep the record
+		// to choose whether to keep score
 		cout<<"Do you want to keep the score of this trial, "<<Player_name
 		<<"? "<<"[yes/no]"<<endl;
 		string keep_trial_ans;
@@ -164,7 +185,7 @@ int main()
 		}
 		cout<<Player_name<<", now please enjoy the game!"<<endl;
 
-		// Generate for random numbers
+		// generate four random numbers
 		int n1,n2,n3,n4;
 		srand(time(NULL));
 		n1=rand()%9+1;
@@ -532,7 +553,7 @@ int main()
 			cout << "Your score is " << Player_score << "." << endl;
 		}
 
-		// To build the linked list of the record
+		// To build the linked lists of the record
 		if(keeprecord)
 		{
 			Record * after_this;
@@ -544,8 +565,10 @@ int main()
 				insert(after_this, Player_name, Player_score);
 
 		}
-		
-		// Whether to end the loop and output the results
+		else {
+			hidden_record_tail_insert(h_head, h_tail, Player_name);
+		}
+    // Whether to end the loop and output the results
 		cout << "Is there another player? (yes/no)" << endl;
 		string continue_ans;
 		cin >> continue_ans;
@@ -569,5 +592,12 @@ int main()
 		fout << current->name << " " << current->info << endl;
 		current = current->next;
 	}
+	Hidden_Record * h_current = h_head;
+	while (h_current != NULL)
+	{
+		fout << h_current ->name << " has hidden his/her score." << endl;
+		h_current = h_current->next;
+	}
 
+	return 0;
 }
