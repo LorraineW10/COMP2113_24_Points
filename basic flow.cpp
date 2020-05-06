@@ -462,11 +462,13 @@ int main()
 	{
 		cout<<"YOU WIN, "<<Player_name<<"!"<<endl;
 		Player_score+=10;
+		cout << "Your score is " << Player_score << "." << endl;
 	}
 	else
 	{
 		cout<<"Sorry you lose this trial, "<<Player_name<<endl;
 		Player_score-=5;
+		cout << "Your score is " << Player_score << "." << endl;
 	}
 
 	ofstream fout;
