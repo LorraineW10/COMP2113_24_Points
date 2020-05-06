@@ -77,16 +77,20 @@ int smaller(int a, int b)
 
 int main()
 {
+	// GREETINGS
 	cout<<"Welcome to 24 points!"<<endl;
 	cout<<"Player's name: "<<endl;
 	string Player_name;
 	cin>>Player_name;
 	cout<<"Hello "<<Player_name<<"!"<<endl;
+	
+	// WHETHER TO KEEP THE RECORD
 	cout<<"Do you want to keep the score of this trial, "<<Player_name
 	<<"? "<<"[yes/no]"<<endl;
 	string keep_trial_ans;
 	cin>>keep_trial_ans;
 	bool keeprecord;
+	
 	if(keep_trial_ans=="yes")
 	{
 		keeprecord=true;
@@ -98,6 +102,8 @@ int main()
 		cout<<"only your name will be recorded while your score hidden"<<endl;
 	}
 	cout<<Player_name<<", now please enjoy the game!"<<endl;
+	
+	// GENERATE 4 NUMBERS
 	int n1,n2,n3,n4;
 	srand(time(NULL));
 	n1=rand()%9+1;
@@ -109,7 +115,7 @@ int main()
 	cout<<"The third number is "<<n3<<endl;
 	cout<<"The fourth number is "<<n4<<endl;
 
-
+	// START THE GAME
 	int Player_score=0;
 	cout<<Player_name<<", please choose which operation you want to do:"<<endl;
 	cout<<"[1] On "<<n1<<endl;
@@ -472,7 +478,7 @@ int main()
 	}
 	if(keeprecord)
 	{
-		fout<<Player_name<<" "<<Player_score<<endl;
+		fout<<Player_name<<"\t"<<Player_score<<endl;
 	}
 	else
 	{
