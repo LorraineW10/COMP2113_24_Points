@@ -703,8 +703,7 @@ int main()
 
 
 									fout << endl;
-									fout << result1[1] << " " << result2[1] << " " << result3[1] << endl;
-
+									
 								}
 							}
 						}
