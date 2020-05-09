@@ -334,3 +334,349 @@ int main()
 			}
 			n2=0;
 		}
+		else if(Player_5_oper_choice==2)
+		{
+			cout<<Player_name<<", please choose which operation you want to do on "
+			<<n2<<" and "<<n3<<endl;
+			cout<<"[1] add"<<endl;
+			cout<<"[2] subtract"<<endl;
+			cout<<"[3] multiple"<<endl;
+			cout<<"[4] divide"<<endl;
+			cout<<"[5] permutation"<<endl;
+			cout<<"[6] combination"<<endl;
+			int Player_8_oper_choice;
+			cin>>Player_8_oper_choice;
+			if(Player_8_oper_choice==1)
+			{
+				n3=n2+n3;
+				Player_score+=1;
+			}
+			else if(Player_8_oper_choice==2)
+			{
+				n3=subtract(n2,n3);
+				Player_score+=1;
+			}
+			else if(Player_8_oper_choice==3)
+			{
+				n3=n2*n3;
+				Player_score+=1;
+			}
+			else if(Player_8_oper_choice==4)
+			{
+				n3=round(n2/n3);
+				Player_score+=1;
+			}
+			else if(Player_8_oper_choice==5)
+			{
+				n3=permutation(bigger(n2,n3),smaller(n2,n3));
+				Player_score+=3;
+			}
+			else if(Player_8_oper_choice==6)
+			{
+				n3=combination(bigger(n2,n3),smaller(n2,n3));
+				Player_score+=3;
+			}
+			n2=0;
+		}
+
+
+		cout<<"Now we have two numbers remaining."<<endl;
+		cout<<"The third number is "<<n3<<endl;
+		cout<<"The fourth number is "<<n4<<endl;
+		cout<<Player_name<<", please choose which operation you want to do next:"<<endl;
+		cout<<"[1] On "<<n3<<endl;
+		cout<<"[2] Between "<<n3<<" and "<<n4<<endl;
+		int Player_9_oper_choice;
+		cin>>Player_9_oper_choice;
+		if(Player_9_oper_choice==1)
+		{
+			cout<<Player_name<<", please choose which operation you want to do on "<<n3<<endl;
+			cout<<"[1] square root"<<endl;
+			cout<<"[2] factorial"<<endl;
+			cout << "* We would not compute factorial of numbers larger than 9. It will return -999." << endl;
+			int Player_10_oper_choice;
+			cin>>Player_10_oper_choice;
+			if(Player_10_oper_choice==1)
+			{
+				n3=round(sqrt(n3));
+				cout<<"Now the third number is "<<n3<<endl;
+				Player_score+=3;
+			}
+			else if(Player_10_oper_choice==2)
+			{
+				n3=factorial(n3);
+				cout<<"Now the third number is "<<n3<<endl;
+				Player_score+=3;
+			}
+			cout<<Player_name<<", please choose which operation you want to do on "
+			<<n3<<" and "<<n4<<endl;
+			cout<<"[1] add"<<endl;
+			cout<<"[2] subtract"<<endl;
+			cout<<"[3] multiple"<<endl;
+			cout<<"[4] divide"<<endl;
+			cout<<"[5] permutation"<<endl;
+			cout<<"[6] combination"<<endl;
+			int Player_11_oper_choice;
+			cin>>Player_11_oper_choice;
+			if(Player_11_oper_choice==1)
+			{
+				n4=n3+n4;
+				Player_score+=1;
+			}
+			else if(Player_11_oper_choice==2)
+			{
+				n4=subtract(n3,n4);
+				Player_score+=1;
+			}
+			else if(Player_11_oper_choice==3)
+			{
+				n4=n3*n4;
+				Player_score+=1;
+			}
+			else if(Player_11_oper_choice==4)
+			{
+				n4=round(n3/n4);
+				Player_score+=1;
+			}
+			else if(Player_11_oper_choice==5)
+			{
+				n4=permutation(bigger(n3,n4),smaller(n3,n4));
+				Player_score+=3;
+			}
+			else if(Player_11_oper_choice==6)
+			{
+				n4=combination(bigger(n3,n4),smaller(n3,n4));
+				Player_score+=3;
+			}
+			n3=0;
+		}
+		else if(Player_9_oper_choice==2)
+		{
+			cout<<Player_name<<", please choose which operation you want to do on "
+			<<n3<<" and "<<n4<<endl;
+			cout<<"[1] add"<<endl;
+			cout<<"[2] subtract"<<endl;
+			cout<<"[3] multiple"<<endl;
+			cout<<"[4] divide"<<endl;
+			cout<<"[5] permutation"<<endl;
+			cout<<"[6] combination"<<endl;
+			int Player_12_oper_choice;
+			cin>>Player_12_oper_choice;
+			if(Player_12_oper_choice==1)
+			{
+				n4=n3+n4;
+				Player_score+=1;
+			}
+			else if(Player_12_oper_choice==2)
+			{
+				n4=subtract(n3,n4);
+				Player_score+=1;
+			}
+			else if(Player_12_oper_choice==3)
+			{
+				n4=n3*n4;
+				Player_score+=1;
+			}
+			else if(Player_12_oper_choice==4)
+			{
+				n4=round(n3/n4);
+				Player_score+=1;
+			}
+			else if(Player_12_oper_choice==5)
+			{
+				n4=permutation(bigger(n3,n4),smaller(n3,n4));
+				Player_score+=3;
+			}
+			else if(Player_12_oper_choice==6)
+			{
+				n4=combination(bigger(n3,n4),smaller(n3,n4));
+				Player_score+=3;
+			}
+			n3=0;
+		}
+
+		if(n4==24)
+		{
+			cout<<"YOU WIN, "<<Player_name<<"!"<<endl;
+			Player_score+=10;
+			cout << "Your score is " << Player_score << "." << endl;
+		}
+		else
+		{
+			cout<<"Sorry you lose this trial, "<<Player_name<<endl;
+			Player_score-=5;
+			cout << "Your score is " << Player_score << "." << endl;
+		}
+
+		// To build the linked lists of the record
+		if(keeprecord)
+		{
+			Record * after_this;
+	    after_this = find_prev(head, Player_score);
+
+			if (after_this == NULL)
+				head_insert(head, Player_name, Player_score);
+			else
+				insert(after_this, Player_name, Player_score);
+
+		}
+		else {
+			hidden_record_tail_insert(h_head, h_tail, Player_name);
+		}
+
+
+		ofstream fout;
+		string filename="All_Possible_Results.txt";
+		fout.open(filename,ios::app);
+		if(fout.fail())
+		{
+			cout<<"Error! Cannot output all possible results."<<endl;
+		}
+
+		bool result=false;
+		int result1[2],result2[2],result3[2];
+		fout << Player_name << "'s game have following possible results:" << endl;
+
+		for (int i=0;i<3;i++){
+			if (i==0) result1[0]=factorial(num[0]);
+			else if (i==1) result1[0]=round(sqrt(num[0]));
+			else if (i==2) result1[0]=num[0];
+
+			for (int j=0;j<6;j++){
+				result1[1]=result1[0];
+				if (j==0) result1[1]+=num[1];
+				else if (j==1) result1[1]=subtract(result1[1],num[1]);
+				else if (j==2) result1[1]*=num[1];
+				else if (j==3) result1[1]=round(result1[1]/num[1]);
+				else if (j==4) result1[1]=permutation(bigger(num[1],result1[1]),smaller(num[1],result1[1]));
+				else if (j==5) result1[1]=combination(bigger(num[1],result1[1]),smaller(num[1],result1[1]));
+
+				if(result1[1]==-999) break;
+
+				for ( int k=0;k<3;k++){
+					if (k==0) result2[0]=factorial(result1[1]);
+					else if (k==1) result2[0]=round(sqrt(result1[1]));
+					else if (k==2) result2[0]=result1[1];
+
+					for ( int l=0;l<6;l++){
+						result2[1]=result2[0];
+						if (l==0) result2[1]=num[2]+result2[1];
+						else if (l==1) result2[1]=subtract(num[2],result2[1]);
+						else if (l==2) result2[1]=num[2]*result2[1];
+						else if (l==3) result2[1]=round(result2[1]/num[2]);
+						else if (l==4) result2[1]=permutation(bigger(num[2],result2[1]),smaller(num[2],result2[1]));
+						else if (l==5) result2[1]=combination(bigger(num[2],result2[1]),smaller(num[2],result2[1]));
+
+						if(result2[1]==-999) break;
+
+						for ( int x=0;x<3;x++){
+							if (x==0) result3[0]=factorial(result2[1]);
+							else if (x==1) result3[0]=round(sqrt(result2[1]));
+							else if (x==2) result3[0]=result2[1];
+
+							for ( int y=0;y<6;y++){
+								result3[1]=result3[0];
+								if (y==0) result3[1]=num[3]+result3[1];
+								else if (y==1) result3[1]=subtract(result3[1],num[3]);
+								else if (y==2) result3[1]=num[3]*result3[1];
+								else if (y==3) result3[1]=round(result3[1]/num[3]);
+								else if (y==4) result3[1]=permutation(bigger(num[3],result3[1]),smaller(num[3],result3[1]));
+								else if (y==5) result3[1]=combination(bigger(num[3],result3[1]),smaller(num[3],result3[1]));
+
+								if (result3[1]==24){
+									result = true;
+									fout << num[0] ;
+									if (i==0) fout << " factorial,";
+									if (i==1) fout << " squared,";
+
+									if (j==0) fout << " plus " << num[1];
+									if (j==1) fout << " subtract " << num[1] << "(absolute value)";
+									if (j==2) fout << " multiple " << num[1];
+									if (j==3) fout << " divided by " << num[1] << "(round)";
+									if (j==4) fout << " permutation with " << num[1];
+									if (j==5) fout << " combination with " << num[1];
+
+
+									fout << " then";
+									if (k==0) fout << " factorial,";
+									if (k==1) fout << " squared,";
+
+									if (l==0) fout << " plus " << num[2];
+									if (l==1) fout << " subtract " << num[2] << "(absolute value)";
+									if (l==2) fout << " multiply by " << num[2];
+									if (l==3) fout << " divided by " << num[2] << "(round)";
+									if (l==4) fout << " permutation with " << num[2];
+									if (l==5) fout << " combination with " << num[2];
+
+									fout << " then";
+									if (x==0) fout << " factorial,";
+									if (x==1) fout << " squared,";
+
+									if (y==0) fout << " plus " << num[3];
+									if (y==1) fout << " subtract " << num[3] << "(absolute value)";
+									if (y==2) fout << " multiple " << num[3];
+									if (y==3) fout << " divided by " << num[3] << "(round)";
+									if (y==4) fout << " permutation with " << num[3];
+									if (y==5) fout << " combination with " << num[3];
+
+
+									fout << endl;
+									
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		if (result==false){
+			fout << "Sorry. No possible results." << endl;
+		}
+
+		fout << endl;
+		fout.close();
+
+    // Whether to end the loop and output the results
+		cout << "Is there another player? (yes/no)" << endl;
+		string continue_ans;
+		cin >> continue_ans;
+		if (continue_ans == "no"){
+			cout << "OK, bye!" << endl;
+			break;
+		}
+
+		// output all possible results;
+
+	}
+
+	// To output the record into a file.
+	ofstream fout;
+	string filename="Players_record.txt";
+	fout.open(filename.c_str());
+	if(fout.fail())
+	{
+		cout<<"Error! Cannot check record."<<endl;
+	}
+	fout << "Player name Score\n";
+	Record * current = head;
+	while (current != NULL)
+	{
+		fout << current->name << " " << current->info << endl;
+		current = current->next;
+	}
+	Hidden_Record * h_current = h_head;
+	while (h_current != NULL)
+	{
+		fout << h_current ->name << " has hidden his/her score." << endl;
+		h_current = h_current->next;
+	}
+	fout.close();
+
+
+
+
+
+	return 0;
+}
+
