@@ -1,0 +1,52 @@
+Welcome to 24 points!
+Player's name: 
+Hello Alex!
+Do you want to keep the score of this trial, Alex? [yes/no]
+We will count your score and store it in Player record
+Alex, now please enjoy the game!
+Please input a number
+The first number is 2
+The second number is 8
+The third number is 1
+The fourth number is 8
+Alex, please choose which operation you want to do:
+[1] On 2
+[2] Between 2 and 8
+Alex, please choose which operation you want to do on 2 and 8
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have three numbers remaining.
+The second number is 16
+The third number is 1
+The fourth number is 8
+Alex, please choose which operation you want to do next:
+[1] On 16
+[2] Between 16 and 1
+Alex, please choose which operation you want to do on 16 and 1
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have two numbers remaining.
+The third number is 16
+The fourth number is 8
+Alex, please choose which operation you want to do next:
+[1] On 16
+[2] Between 16 and 8
+Alex, please choose which operation you want to do on 16 and 8
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+YOU WIN, Alex!
+Your score is 13.
+Is there another player? (yes/no)
+OK, bye!

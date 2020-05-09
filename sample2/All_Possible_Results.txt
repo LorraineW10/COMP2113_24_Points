@@ -1,0 +1,13 @@
+Bob's game have following possible results:
+3 factorial, multiple 7 then squared, combination with 4 then plus 9
+3 squared, permutation with 7 then squared, combination with 4 then plus 9
+3 permutation with 7 then plus 4 then squared, plus 9
+3 combination with 7 then squared, combination with 4 then plus 9
+
+Cat's game have following possible results:
+7 squared, subtract 9(absolute value) then factorial, divided by 5(round) then squared, multiple 2
+7 squared, multiple 9 then subtract 5(absolute value) then plus 2
+7 squared, multiple 9 then multiply by 5 then squared, multiple 2
+7 squared, permutation with 9 then subtract 5(absolute value) then squared, plus 2
+7 multiple 9 then divided by 5(round) then multiple 2
+

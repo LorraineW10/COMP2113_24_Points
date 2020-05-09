@@ -1,0 +1,107 @@
+Welcome to 24 points!
+Player's name: 
+Hello Bob!
+Do you want to keep the score of this trial, Bob? [yes/no]
+We will count your score and store it in Player record
+Bob, now please enjoy the game!
+Please input a number
+The first number is 3
+The second number is 7
+The third number is 4
+The fourth number is 9
+Bob, please choose which operation you want to do:
+[1] On 3
+[2] Between 3 and 7
+Bob, please choose which operation you want to do on 3 and 7
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have three numbers remaining.
+The second number is 10
+The third number is 4
+The fourth number is 9
+Bob, please choose which operation you want to do next:
+[1] On 10
+[2] Between 10 and 4
+Bob, please choose which operation you want to do on 10 and 4
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have two numbers remaining.
+The third number is 14
+The fourth number is 9
+Bob, please choose which operation you want to do next:
+[1] On 14
+[2] Between 14 and 9
+Bob, please choose which operation you want to do on 14 and 9
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Sorry you lose this trial, Bob
+Your score is -2.
+Is there another player? (yes/no)
+Player's name: 
+Hello Cat!
+Do you want to keep the score of this trial, Cat? [yes/no]
+We will count your score and store it in Player record
+Cat, now please enjoy the game!
+Please input a number
+The first number is 7
+The second number is 9
+The third number is 5
+The fourth number is 2
+Cat, please choose which operation you want to do:
+[1] On 7
+[2] Between 7 and 9
+Cat, please choose which operation you want to do on 7
+[1] square root
+[2] factorial
+* We would not compute factorial of numbers larger than 9. It will return -999.
+Now the first number is 5040
+Cat, please choose which operation you want to do on 5040 and 9
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have three numbers remaining.
+The second number is 560
+The third number is 5
+The fourth number is 2
+Cat, please choose which operation you want to do next:
+[1] On 560
+[2] Between 560 and 5
+Cat, please choose which operation you want to do on 560 and 5
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have two numbers remaining.
+The third number is 112
+The fourth number is 2
+Cat, please choose which operation you want to do next:
+[1] On 112
+[2] Between 112 and 2
+Cat, please choose which operation you want to do on 112 and 2
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Sorry you lose this trial, Cat
+Your score is 1.
+Is there another player? (yes/no)
+OK, bye!

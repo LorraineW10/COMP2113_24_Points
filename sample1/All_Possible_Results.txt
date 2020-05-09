@@ -1,0 +1,95 @@
+Alex's game have following possible results:
+2 factorial, plus 8 then factorial, subtract 1(absolute value) then squared, subtract 8(absolute value)
+2 factorial, plus 8 then squared, multiply by 1 then multiple 8
+2 factorial, plus 8 then squared, divided by 1(round) then multiple 8
+2 factorial, plus 8 then squared, permutation with 1 then multiple 8
+2 factorial, plus 8 then squared, combination with 1 then multiple 8
+2 factorial, plus 8 then plus 1 then squared, multiple 8
+2 factorial, plus 8 then subtract 1(absolute value) then squared, multiple 8
+2 factorial, plus 8 then multiply by 1 then squared, multiple 8
+2 factorial, plus 8 then divided by 1(round) then squared, multiple 8
+2 factorial, subtract 8(absolute value) then squared, plus 1 then multiple 8
+2 factorial, subtract 8(absolute value) then plus 1 then squared, multiple 8
+2 factorial, multiple 8 then factorial, subtract 1(absolute value) then squared, subtract 8(absolute value)
+2 factorial, multiple 8 then squared, subtract 1(absolute value) then multiple 8
+2 factorial, multiple 8 then multiply by 1 then plus 8
+2 factorial, multiple 8 then divided by 1(round) then plus 8
+2 factorial, permutation with 8 then factorial, subtract 1(absolute value) then squared, subtract 8(absolute value)
+2 factorial, permutation with 8 then squared, plus 1 then squared, multiple 8
+2 factorial, permutation with 8 then squared, multiply by 1 then squared, multiple 8
+2 factorial, permutation with 8 then squared, divided by 1(round) then squared, multiple 8
+2 factorial, permutation with 8 then squared, permutation with 1 then squared, multiple 8
+2 factorial, permutation with 8 then squared, combination with 1 then squared, multiple 8
+2 factorial, combination with 8 then factorial, subtract 1(absolute value) then squared, subtract 8(absolute value)
+2 squared, plus 8 then squared, multiply by 1 then multiple 8
+2 squared, plus 8 then squared, divided by 1(round) then multiple 8
+2 squared, plus 8 then squared, permutation with 1 then multiple 8
+2 squared, plus 8 then squared, combination with 1 then multiple 8
+2 squared, plus 8 then plus 1 then squared, multiple 8
+2 squared, plus 8 then subtract 1(absolute value) then squared, multiple 8
+2 squared, plus 8 then multiply by 1 then squared, multiple 8
+2 squared, plus 8 then divided by 1(round) then squared, multiple 8
+2 squared, plus 8 then permutation with 1 then squared, multiple 8
+2 squared, plus 8 then combination with 1 then squared, multiple 8
+2 squared, subtract 8(absolute value) then squared, multiply by 1 then multiple 8
+2 squared, subtract 8(absolute value) then squared, divided by 1(round) then multiple 8
+2 squared, subtract 8(absolute value) then squared, permutation with 1 then multiple 8
+2 squared, subtract 8(absolute value) then squared, combination with 1 then multiple 8
+2 squared, subtract 8(absolute value) then plus 1 then squared, multiple 8
+2 squared, subtract 8(absolute value) then multiply by 1 then squared, multiple 8
+2 squared, subtract 8(absolute value) then divided by 1(round) then squared, multiple 8
+2 squared, subtract 8(absolute value) then permutation with 1 then squared, multiple 8
+2 squared, subtract 8(absolute value) then combination with 1 then squared, multiple 8
+2 squared, multiple 8 then squared, multiply by 1 then multiple 8
+2 squared, multiple 8 then squared, divided by 1(round) then multiple 8
+2 squared, multiple 8 then squared, permutation with 1 then multiple 8
+2 squared, multiple 8 then squared, combination with 1 then multiple 8
+2 squared, multiple 8 then plus 1 then squared, multiple 8
+2 squared, multiple 8 then subtract 1(absolute value) then squared, multiple 8
+2 squared, multiple 8 then multiply by 1 then squared, multiple 8
+2 squared, multiple 8 then divided by 1(round) then squared, multiple 8
+2 squared, multiple 8 then permutation with 1 then squared, multiple 8
+2 squared, multiple 8 then combination with 1 then squared, multiple 8
+2 squared, permutation with 8 then squared, multiply by 1 then multiple 8
+2 squared, permutation with 8 then squared, divided by 1(round) then multiple 8
+2 squared, permutation with 8 then squared, permutation with 1 then multiple 8
+2 squared, permutation with 8 then squared, combination with 1 then multiple 8
+2 squared, permutation with 8 then plus 1 then squared, multiple 8
+2 squared, permutation with 8 then subtract 1(absolute value) then squared, multiple 8
+2 squared, permutation with 8 then multiply by 1 then squared, multiple 8
+2 squared, permutation with 8 then divided by 1(round) then squared, multiple 8
+2 squared, permutation with 8 then permutation with 1 then squared, multiple 8
+2 squared, permutation with 8 then combination with 1 then squared, multiple 8
+2 squared, combination with 8 then squared, multiply by 1 then multiple 8
+2 squared, combination with 8 then squared, divided by 1(round) then multiple 8
+2 squared, combination with 8 then squared, permutation with 1 then multiple 8
+2 squared, combination with 8 then squared, combination with 1 then multiple 8
+2 squared, combination with 8 then plus 1 then squared, multiple 8
+2 squared, combination with 8 then subtract 1(absolute value) then squared, multiple 8
+2 squared, combination with 8 then multiply by 1 then squared, multiple 8
+2 squared, combination with 8 then divided by 1(round) then squared, multiple 8
+2 squared, combination with 8 then permutation with 1 then squared, multiple 8
+2 squared, combination with 8 then combination with 1 then squared, multiple 8
+2 plus 8 then factorial, subtract 1(absolute value) then squared, subtract 8(absolute value)
+2 plus 8 then squared, multiply by 1 then multiple 8
+2 plus 8 then squared, divided by 1(round) then multiple 8
+2 plus 8 then squared, permutation with 1 then multiple 8
+2 plus 8 then squared, combination with 1 then multiple 8
+2 plus 8 then plus 1 then squared, multiple 8
+2 plus 8 then subtract 1(absolute value) then squared, multiple 8
+2 plus 8 then multiply by 1 then squared, multiple 8
+2 plus 8 then divided by 1(round) then squared, multiple 8
+2 subtract 8(absolute value) then squared, plus 1 then multiple 8
+2 subtract 8(absolute value) then plus 1 then squared, multiple 8
+2 multiple 8 then factorial, subtract 1(absolute value) then squared, subtract 8(absolute value)
+2 multiple 8 then squared, subtract 1(absolute value) then multiple 8
+2 multiple 8 then multiply by 1 then plus 8
+2 multiple 8 then divided by 1(round) then plus 8
+2 permutation with 8 then factorial, subtract 1(absolute value) then squared, subtract 8(absolute value)
+2 permutation with 8 then squared, plus 1 then squared, multiple 8
+2 permutation with 8 then squared, multiply by 1 then squared, multiple 8
+2 permutation with 8 then squared, divided by 1(round) then squared, multiple 8
+2 permutation with 8 then squared, permutation with 1 then squared, multiple 8
+2 permutation with 8 then squared, combination with 1 then squared, multiple 8
+2 combination with 8 then factorial, subtract 1(absolute value) then squared, subtract 8(absolute value)
+

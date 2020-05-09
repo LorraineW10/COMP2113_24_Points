@@ -1,0 +1,207 @@
+Welcome to 24 points!
+Player's name: 
+Hello Lorraine!
+Do you want to keep the score of this trial, Lorraine? [yes/no]
+We will count your score and store it in Player record
+Lorraine, now please enjoy the game!
+Please input a number
+The first number is 3
+The second number is 6
+The third number is 9
+The fourth number is 3
+Lorraine, please choose which operation you want to do:
+[1] On 3
+[2] Between 3 and 6
+Lorraine, please choose which operation you want to do on 3 and 6
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have three numbers remaining.
+The second number is 18
+The third number is 9
+The fourth number is 3
+Lorraine, please choose which operation you want to do next:
+[1] On 18
+[2] Between 18 and 9
+Lorraine, please choose which operation you want to do on 18 and 9
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have two numbers remaining.
+The third number is 27
+The fourth number is 3
+Lorraine, please choose which operation you want to do next:
+[1] On 27
+[2] Between 27 and 3
+Lorraine, please choose which operation you want to do on 27 and 3
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+YOU WIN, Lorraine!
+Your score is 13.
+Is there another player? (yes/no)
+Player's name: 
+Hello Lo!
+Do you want to keep the score of this trial, Lo? [yes/no]
+We will count your score and store it in Player record
+Lo, now please enjoy the game!
+Please input a number
+The first number is 5
+The second number is 9
+The third number is 8
+The fourth number is 5
+Lo, please choose which operation you want to do:
+[1] On 5
+[2] Between 5 and 9
+Lo, please choose which operation you want to do on 5
+[1] square root
+[2] factorial
+* We would not compute factorial of numbers larger than 9. It will return -999.
+Now the first number is 2
+Lo, please choose which operation you want to do on 2 and 9
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have three numbers remaining.
+The second number is 11
+The third number is 8
+The fourth number is 5
+Lo, please choose which operation you want to do next:
+[1] On 11
+[2] Between 11 and 8
+Lo, please choose which operation you want to do on 11 and 8
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have two numbers remaining.
+The third number is 19
+The fourth number is 5
+Lo, please choose which operation you want to do next:
+[1] On 19
+[2] Between 19 and 5
+Lo, please choose which operation you want to do on 19 and 5
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+YOU WIN, Lo!
+Your score is 16.
+Is there another player? (yes/no)
+Player's name: 
+Hello Raine!
+Do you want to keep the score of this trial, Raine? [yes/no]
+We will count your score and store it in Player record
+Raine, now please enjoy the game!
+Please input a number
+The first number is 5
+The second number is 6
+The third number is 9
+The fourth number is 4
+Raine, please choose which operation you want to do:
+[1] On 5
+[2] Between 5 and 6
+Raine, please choose which operation you want to do on 5 and 6
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have three numbers remaining.
+The second number is 11
+The third number is 9
+The fourth number is 4
+Raine, please choose which operation you want to do next:
+[1] On 11
+[2] Between 11 and 9
+Raine, please choose which operation you want to do on 11 and 9
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have two numbers remaining.
+The third number is 20
+The fourth number is 4
+Raine, please choose which operation you want to do next:
+[1] On 20
+[2] Between 20 and 4
+Raine, please choose which operation you want to do on 20 and 4
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Sorry you lose this trial, Raine
+Your score is -2.
+Is there another player? (yes/no)
+Player's name: 
+Hello Rena!
+Do you want to keep the score of this trial, Rena? [yes/no]
+Only your name will be recorded while your score hidden
+Rena, now please enjoy the game!
+Please input a number
+The first number is 6
+The second number is 6
+The third number is 7
+The fourth number is 1
+Rena, please choose which operation you want to do:
+[1] On 6
+[2] Between 6 and 6
+Rena, please choose which operation you want to do on 6 and 6
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have three numbers remaining.
+The second number is 0
+The third number is 7
+The fourth number is 1
+Rena, please choose which operation you want to do next:
+[1] On 0
+[2] Between 0 and 7
+Rena, please choose which operation you want to do on 0 and 7
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Now we have two numbers remaining.
+The third number is 7
+The fourth number is 1
+Rena, please choose which operation you want to do next:
+[1] On 7
+[2] Between 7 and 1
+Rena, please choose which operation you want to do on 7 and 1
+[1] add
+[2] subtract
+[3] multiple
+[4] divide
+[5] permutation
+[6] combination
+Sorry you lose this trial, Rena
+Your score is -2.
+Is there another player? (yes/no)
+OK, bye!

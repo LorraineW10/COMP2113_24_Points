@@ -1,0 +1,215 @@
+Lorraine's game have following possible results:
+3 factorial, plus 6 then squared, multiply by 9 then subtract 3(absolute value)
+3 factorial, plus 6 then plus 9 then plus 3
+3 factorial, subtract 6(absolute value) then factorial, subtract 9(absolute value) then multiple 3
+3 factorial, multiple 6 then squared, plus 9 then squared, permutation with 3
+3 factorial, multiple 6 then subtract 9(absolute value) then subtract 3(absolute value)
+3 factorial, multiple 6 then divided by 9(round) then permutation with 3
+3 factorial, divided by 6(round) then factorial, subtract 9(absolute value) then multiple 3
+3 factorial, divided by 6(round) then squared, subtract 9(absolute value) then multiple 3
+3 factorial, divided by 6(round) then subtract 9(absolute value) then multiple 3
+3 squared, plus 6 then squared, multiply by 9 then subtract 3(absolute value)
+3 squared, plus 6 then plus 9 then squared, permutation with 3
+3 squared, plus 6 then multiply by 9 then squared, multiple 3
+3 squared, plus 6 then multiply by 9 then divided by 3(round)
+3 squared, subtract 6(absolute value) then factorial, subtract 9(absolute value) then squared, permutation with 3
+3 squared, subtract 6(absolute value) then squared, multiply by 9 then squared, permutation with 3
+3 squared, subtract 6(absolute value) then squared, permutation with 9 then squared, multiple 3
+3 squared, subtract 6(absolute value) then squared, permutation with 9 then divided by 3(round)
+3 squared, subtract 6(absolute value) then plus 9 then squared, permutation with 3
+3 squared, multiple 6 then squared, multiply by 9 then subtract 3(absolute value)
+3 squared, multiple 6 then plus 9 then plus 3
+3 squared, divided by 6(round) then factorial, subtract 9(absolute value) then multiple 3
+3 squared, permutation with 6 then squared, plus 9 then squared, permutation with 3
+3 squared, permutation with 6 then squared, subtract 9(absolute value) then permutation with 3
+3 squared, permutation with 6 then subtract 9(absolute value) then plus 3
+3 squared, combination with 6 then squared, plus 9 then squared, permutation with 3
+3 plus 6 then squared, multiply by 9 then subtract 3(absolute value)
+3 plus 6 then plus 9 then squared, permutation with 3
+3 subtract 6(absolute value) then factorial, plus 9 then squared, permutation with 3
+3 subtract 6(absolute value) then squared, multiply by 9 then squared, permutation with 3
+3 subtract 6(absolute value) then squared, permutation with 9 then squared, multiple 3
+3 subtract 6(absolute value) then squared, permutation with 9 then divided by 3(round)
+3 subtract 6(absolute value) then multiply by 9 then subtract 3(absolute value)
+3 multiple 6 then squared, plus 9 then squared, permutation with 3
+3 multiple 6 then plus 9 then subtract 3(absolute value)
+3 divided by 6(round) then factorial, subtract 9(absolute value) then multiple 3
+3 permutation with 6 then squared, plus 9 then squared, permutation with 3
+3 permutation with 6 then divided by 9(round) then squared, permutation with 3
+3 combination with 6 then squared, plus 9 then squared, permutation with 3
+
+Lo's game have following possible results:
+5 factorial, plus 9 then squared, plus 8 then plus 5
+5 factorial, plus 9 then subtract 8(absolute value) then divided by 5(round)
+5 factorial, subtract 9(absolute value) then squared, plus 8 then plus 5
+5 factorial, divided by 9(round) then subtract 8(absolute value) then factorial, divided by 5(round)
+5 squared, plus 9 then squared, subtract 8(absolute value) then factorial, divided by 5(round)
+5 squared, plus 9 then plus 8 then plus 5
+5 squared, subtract 9(absolute value) then squared, subtract 8(absolute value) then factorial, divided by 5(round)
+5 multiple 9 then multiply by 8 then squared, plus 5
+5 multiple 9 then divided by 8(round) then factorial, divided by 5(round)
+5 permutation with 9 then plus 8 then squared, divided by 5(round)
+5 permutation with 9 then subtract 8(absolute value) then squared, divided by 5(round)
+5 combination with 9 then squared, plus 8 then plus 5
+
+Raine's game have following possible results:
+5 factorial, plus 6 then factorial, plus 9 then squared, permutation with 4
+5 factorial, plus 6 then factorial, plus 9 then squared, combination with 4
+5 factorial, plus 6 then factorial, multiply by 9 then squared, permutation with 4
+5 factorial, plus 6 then factorial, multiply by 9 then squared, combination with 4
+5 factorial, plus 6 then factorial, divided by 9(round) then squared, permutation with 4
+5 factorial, plus 6 then factorial, divided by 9(round) then squared, combination with 4
+5 factorial, plus 6 then squared, plus 9 then plus 4
+5 factorial, plus 6 then squared, multiply by 9 then divided by 4(round)
+5 factorial, plus 6 then squared, permutation with 9 then squared, permutation with 4
+5 factorial, plus 6 then squared, permutation with 9 then squared, combination with 4
+5 factorial, subtract 6(absolute value) then factorial, plus 9 then squared, permutation with 4
+5 factorial, subtract 6(absolute value) then factorial, plus 9 then squared, combination with 4
+5 factorial, subtract 6(absolute value) then factorial, multiply by 9 then squared, permutation with 4
+5 factorial, subtract 6(absolute value) then factorial, multiply by 9 then squared, combination with 4
+5 factorial, subtract 6(absolute value) then factorial, divided by 9(round) then squared, permutation with 4
+5 factorial, subtract 6(absolute value) then factorial, divided by 9(round) then squared, combination with 4
+5 factorial, subtract 6(absolute value) then squared, plus 9 then plus 4
+5 factorial, subtract 6(absolute value) then squared, multiply by 9 then divided by 4(round)
+5 factorial, subtract 6(absolute value) then squared, permutation with 9 then squared, permutation with 4
+5 factorial, subtract 6(absolute value) then squared, permutation with 9 then squared, combination with 4
+5 factorial, subtract 6(absolute value) then divided by 9(round) then squared, permutation with 4
+5 factorial, multiple 6 then factorial, plus 9 then squared, permutation with 4
+5 factorial, multiple 6 then factorial, plus 9 then squared, combination with 4
+5 factorial, multiple 6 then factorial, multiply by 9 then squared, permutation with 4
+5 factorial, multiple 6 then factorial, multiply by 9 then squared, combination with 4
+5 factorial, multiple 6 then factorial, divided by 9(round) then squared, permutation with 4
+5 factorial, multiple 6 then factorial, divided by 9(round) then squared, combination with 4
+5 factorial, multiple 6 then squared, plus 9 then squared, multiple 4
+5 factorial, multiple 6 then squared, divided by 9(round) then factorial, multiple 4
+5 factorial, multiple 6 then squared, divided by 9(round) then permutation with 4
+5 factorial, divided by 6(round) then factorial, plus 9 then squared, permutation with 4
+5 factorial, divided by 6(round) then factorial, plus 9 then squared, combination with 4
+5 factorial, divided by 6(round) then factorial, multiply by 9 then squared, permutation with 4
+5 factorial, divided by 6(round) then factorial, multiply by 9 then squared, combination with 4
+5 factorial, divided by 6(round) then factorial, divided by 9(round) then squared, permutation with 4
+5 factorial, divided by 6(round) then factorial, divided by 9(round) then squared, combination with 4
+5 factorial, divided by 6(round) then squared, multiply by 9 then squared, multiple 4
+5 factorial, divided by 6(round) then subtract 9(absolute value) then squared, permutation with 4
+5 squared, plus 6 then squared, plus 9 then squared, permutation with 4
+5 squared, plus 6 then squared, subtract 9(absolute value) then multiple 4
+5 squared, plus 6 then combination with 9 then squared, permutation with 4
+5 squared, subtract 6(absolute value) then factorial, plus 9 then squared, multiple 4
+5 squared, subtract 6(absolute value) then squared, plus 9 then squared, permutation with 4
+5 squared, subtract 6(absolute value) then squared, subtract 9(absolute value) then squared, permutation with 4
+5 squared, subtract 6(absolute value) then squared, combination with 9 then squared, multiple 4
+5 squared, subtract 6(absolute value) then multiply by 9 then squared, multiple 4
+5 squared, multiple 6 then factorial, plus 9 then squared, permutation with 4
+5 squared, multiple 6 then factorial, plus 9 then squared, combination with 4
+5 squared, multiple 6 then factorial, multiply by 9 then squared, permutation with 4
+5 squared, multiple 6 then factorial, multiply by 9 then squared, combination with 4
+5 squared, multiple 6 then factorial, divided by 9(round) then squared, permutation with 4
+5 squared, multiple 6 then factorial, divided by 9(round) then squared, combination with 4
+5 squared, multiple 6 then squared, plus 9 then squared, permutation with 4
+5 squared, multiple 6 then squared, subtract 9(absolute value) then multiple 4
+5 squared, multiple 6 then subtract 9(absolute value) then factorial, multiple 4
+5 squared, multiple 6 then subtract 9(absolute value) then permutation with 4
+5 squared, multiple 6 then permutation with 9 then squared, permutation with 4
+5 squared, multiple 6 then permutation with 9 then squared, combination with 4
+5 squared, divided by 6(round) then factorial, plus 9 then squared, permutation with 4
+5 squared, divided by 6(round) then factorial, subtract 9(absolute value) then squared, permutation with 4
+5 squared, divided by 6(round) then factorial, multiply by 9 then squared, permutation with 4
+5 squared, divided by 6(round) then factorial, permutation with 9 then squared, permutation with 4
+5 squared, divided by 6(round) then factorial, combination with 9 then squared, permutation with 4
+5 squared, divided by 6(round) then squared, plus 9 then squared, permutation with 4
+5 squared, divided by 6(round) then squared, subtract 9(absolute value) then squared, permutation with 4
+5 squared, divided by 6(round) then plus 9 then squared, permutation with 4
+5 squared, divided by 6(round) then subtract 9(absolute value) then squared, permutation with 4
+5 squared, permutation with 6 then factorial, plus 9 then squared, permutation with 4
+5 squared, permutation with 6 then factorial, plus 9 then squared, combination with 4
+5 squared, permutation with 6 then factorial, multiply by 9 then squared, permutation with 4
+5 squared, permutation with 6 then factorial, multiply by 9 then squared, combination with 4
+5 squared, permutation with 6 then factorial, divided by 9(round) then squared, permutation with 4
+5 squared, permutation with 6 then factorial, divided by 9(round) then squared, combination with 4
+5 squared, permutation with 6 then plus 9 then squared, multiple 4
+5 squared, permutation with 6 then divided by 9(round) then factorial, multiple 4
+5 squared, permutation with 6 then divided by 9(round) then permutation with 4
+5 squared, combination with 6 then factorial, plus 9 then squared, permutation with 4
+5 squared, combination with 6 then factorial, plus 9 then squared, combination with 4
+5 squared, combination with 6 then factorial, multiply by 9 then squared, permutation with 4
+5 squared, combination with 6 then factorial, multiply by 9 then squared, combination with 4
+5 squared, combination with 6 then factorial, divided by 9(round) then squared, permutation with 4
+5 squared, combination with 6 then factorial, divided by 9(round) then squared, combination with 4
+5 squared, combination with 6 then squared, multiply by 9 then squared, multiple 4
+5 squared, combination with 6 then subtract 9(absolute value) then multiple 4
+5 squared, combination with 6 then permutation with 9 then squared, permutation with 4
+5 squared, combination with 6 then permutation with 9 then squared, combination with 4
+5 plus 6 then factorial, plus 9 then squared, permutation with 4
+5 plus 6 then factorial, plus 9 then squared, combination with 4
+5 plus 6 then factorial, multiply by 9 then squared, permutation with 4
+5 plus 6 then factorial, multiply by 9 then squared, combination with 4
+5 plus 6 then factorial, divided by 9(round) then squared, permutation with 4
+5 plus 6 then factorial, divided by 9(round) then squared, combination with 4
+5 plus 6 then squared, plus 9 then squared, permutation with 4
+5 plus 6 then squared, subtract 9(absolute value) then multiple 4
+5 plus 6 then plus 9 then plus 4
+5 plus 6 then multiply by 9 then divided by 4(round)
+5 plus 6 then permutation with 9 then squared, permutation with 4
+5 plus 6 then permutation with 9 then squared, combination with 4
+5 subtract 6(absolute value) then factorial, plus 9 then squared, permutation with 4
+5 subtract 6(absolute value) then factorial, subtract 9(absolute value) then squared, permutation with 4
+5 subtract 6(absolute value) then factorial, multiply by 9 then squared, permutation with 4
+5 subtract 6(absolute value) then factorial, permutation with 9 then squared, permutation with 4
+5 subtract 6(absolute value) then factorial, combination with 9 then squared, permutation with 4
+5 subtract 6(absolute value) then squared, plus 9 then squared, permutation with 4
+5 subtract 6(absolute value) then squared, subtract 9(absolute value) then squared, permutation with 4
+5 subtract 6(absolute value) then squared, multiply by 9 then squared, permutation with 4
+5 subtract 6(absolute value) then squared, permutation with 9 then squared, permutation with 4
+5 subtract 6(absolute value) then squared, combination with 9 then squared, permutation with 4
+5 subtract 6(absolute value) then plus 9 then squared, permutation with 4
+5 subtract 6(absolute value) then subtract 9(absolute value) then squared, permutation with 4
+5 subtract 6(absolute value) then multiply by 9 then squared, permutation with 4
+5 subtract 6(absolute value) then permutation with 9 then squared, permutation with 4
+5 subtract 6(absolute value) then combination with 9 then squared, permutation with 4
+5 multiple 6 then factorial, plus 9 then squared, permutation with 4
+5 multiple 6 then factorial, plus 9 then squared, combination with 4
+5 multiple 6 then factorial, multiply by 9 then squared, permutation with 4
+5 multiple 6 then factorial, multiply by 9 then squared, combination with 4
+5 multiple 6 then factorial, divided by 9(round) then squared, permutation with 4
+5 multiple 6 then factorial, divided by 9(round) then squared, combination with 4
+5 multiple 6 then plus 9 then squared, multiple 4
+5 multiple 6 then divided by 9(round) then factorial, multiple 4
+5 multiple 6 then divided by 9(round) then permutation with 4
+5 divided by 6(round) then factorial, plus 9 then squared, permutation with 4
+5 divided by 6(round) then factorial, subtract 9(absolute value) then squared, permutation with 4
+5 divided by 6(round) then factorial, multiply by 9 then squared, permutation with 4
+5 divided by 6(round) then factorial, permutation with 9 then squared, permutation with 4
+5 divided by 6(round) then factorial, combination with 9 then squared, permutation with 4
+5 divided by 6(round) then squared, plus 9 then squared, permutation with 4
+5 divided by 6(round) then squared, subtract 9(absolute value) then squared, permutation with 4
+5 divided by 6(round) then plus 9 then squared, permutation with 4
+5 divided by 6(round) then subtract 9(absolute value) then squared, permutation with 4
+5 permutation with 6 then factorial, plus 9 then squared, permutation with 4
+5 permutation with 6 then factorial, plus 9 then squared, combination with 4
+5 permutation with 6 then factorial, multiply by 9 then squared, permutation with 4
+5 permutation with 6 then factorial, multiply by 9 then squared, combination with 4
+5 permutation with 6 then factorial, divided by 9(round) then squared, permutation with 4
+5 permutation with 6 then factorial, divided by 9(round) then squared, combination with 4
+5 permutation with 6 then squared, plus 9 then squared, multiple 4
+5 permutation with 6 then squared, divided by 9(round) then factorial, multiple 4
+5 permutation with 6 then squared, divided by 9(round) then permutation with 4
+5 combination with 6 then squared, plus 9 then squared, permutation with 4
+5 combination with 6 then squared, subtract 9(absolute value) then squared, permutation with 4
+5 combination with 6 then squared, combination with 9 then squared, multiple 4
+5 combination with 6 then subtract 9(absolute value) then factorial, multiple 4
+5 combination with 6 then subtract 9(absolute value) then permutation with 4
+
+Rena's game have following possible results:
+6 factorial, multiple 6 then divided by 7(round) then squared, subtract 1(absolute value)
+6 factorial, divided by 6(round) then squared, subtract 7(absolute value) then factorial, multiple 1
+6 factorial, divided by 6(round) then squared, subtract 7(absolute value) then factorial, divided by 1(round)
+6 squared, plus 6 then squared, subtract 7(absolute value) then factorial, multiple 1
+6 squared, plus 6 then squared, subtract 7(absolute value) then factorial, divided by 1(round)
+6 squared, multiple 6 then squared, subtract 7(absolute value) then factorial, multiple 1
+6 squared, multiple 6 then squared, subtract 7(absolute value) then factorial, divided by 1(round)
+6 squared, permutation with 6 then subtract 7(absolute value) then plus 1
+6 squared, permutation with 6 then divided by 7(round) then factorial, multiple 1
+6 squared, permutation with 6 then divided by 7(round) then factorial, divided by 1(round)
+6 plus 6 then squared, subtract 7(absolute value) then factorial, multiple 1
+6 plus 6 then squared, subtract 7(absolute value) then factorial, divided by 1(round)
+
